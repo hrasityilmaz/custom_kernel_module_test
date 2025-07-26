@@ -6,7 +6,7 @@
 #include <linux/uaccess.h>
 #include <linux/device.h>
 #include <linux/kdev_t.h>
-#include <linux/errno.h> // For error codes like -EINVAL
+#include <linux/errno.h>
 
 #undef pr_fmt
 #define pr_fmt(fmt) "%s:%s: " fmt, __func__, KBUILD_MODNAME
